@@ -46,8 +46,8 @@ footer {
      margin-right: auto;
      
      object-fit: cover;
-     /* width: 250px;
-     height: 250px; */
+     width: 250px;
+     height: 250px;
      /* border-radius: 200px 200px 200px 200px; */
      border-radius: 200px;
  }
