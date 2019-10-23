@@ -1,0 +1,79 @@
+
+body {
+    color: black;
+    /* font-family: 'Liu Jian Mao Cao', cursive; */
+    /* font-family: 'Roboto Slab', serif; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: Arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/* header {
+     background: #018786; 
+    
+} */
+header h1 {
+    font-size: 64px;
+    color: #333333;
+}
+
+header div {
+    /* background:  #03dac6; */
+    margin-top: 16px;
+    padding: 50% inherit;
+    border: 0px;
+    font-size: 20px;
+}
+
+
+footer {
+    /* background: #018786; */
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+
+ img {
+     /* align-content: center; */
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     
+     object-fit: cover;
+     width: 250px;
+     height: 250px;
+     /* border-radius: 200px 200px 200px 200px; */
+     border-radius: 200px;
+ }
+
+ a {
+     color: brown;
+     text-decoration: none;
+     padding: 30px;
+     /* background: grey; */
+     /* border: #333336; */
+ }
+
+
+ .main-content {
+     flex-grow: 1;
+ }
+
+ input {
+     border: 1px solid #888888;
+     padding: 8px;
+ }
+
+ button {
+     cursor: pointer;
+     padding: 8px;
+     color: white;
+     background: #888888;
+     border: 1px solid #888888;
+ }
